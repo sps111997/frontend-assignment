@@ -1,0 +1,38 @@
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+}
+
+tr,
+td,th {
+  padding: 16px;
+  text-align: left;
+  border: 1px solid #ddd;
+  word-wrap: break-word;
+}
+
+tr {
+  background-color: #ffffff;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+tr:hover {
+  background-color: #e0e0e0;
+}
+
+th {
+  background-color: #4caf50;
+  color: white;
+  font-weight: 600;
+}
+
+table {
+  border: 1px solid #ddd;
+  border-radius: 12px;
+}
